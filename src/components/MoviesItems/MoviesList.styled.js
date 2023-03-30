@@ -2,9 +2,13 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 export const HomeTitle = styled.h2`
+margin-bottom:5px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
 
 
-margin: 0 auto;
 `;
 
 
@@ -19,7 +23,7 @@ export const MovieItem = styled.li`
   border: 2px solid black;
   border-radius: 5px;
   background-color: #5f9ea0;
-  width: calc((100% - 20px) / 8);
+  width: calc((100% - 20px) / 6);
 `;
 export const Link = styled(NavLink)`text-decoration:none;`;
 export const MovieImg = styled.img`
