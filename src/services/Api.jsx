@@ -13,11 +13,11 @@ export const searchMovies = name => {
   return axios.get(`/search/movie?${searchParams}&query=${name}`);
 };
 export const getMovieDetails = id => {
-  return axios.get(`/movie/&{id}?${searchParams}`);
+  return axios.get(`/movie/${id}?${searchParams}`);
 };
 export const getMovieCredits = id => {
-  return axios.get(`/movie/&{id}/credits?${searchParams}`);
+  return axios.get(`/movie/${id}/credits?${searchParams}`);
 };
 export const getMovieReviews = id => {
-  return axios.get(`/movie/&{id}/reviews?${searchParams}`);
+  return axios.get(`/movie/${id}/reviews?${searchParams}`);
 };
