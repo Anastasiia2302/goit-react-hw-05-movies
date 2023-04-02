@@ -28,6 +28,7 @@ const Movies = () => {
 
     <>
     <Search onSubmit={handleSubmit} onChange={handleChange}/>
+    
     <MoviesList movies={movies} />
     </>
   )

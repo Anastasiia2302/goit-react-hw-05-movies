@@ -21,7 +21,7 @@ const MovieDetails = () => {
 
   return (
     <>
-      
+     
         <Back to={backLink}> ← Go back</Back>
         <MovieDetailsCard movie={movieDetails} />
       
@@ -33,6 +33,7 @@ const MovieDetails = () => {
         </Back>
       
       <Outlet />
+     
     </>
   );
 };
