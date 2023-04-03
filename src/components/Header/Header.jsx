@@ -4,7 +4,7 @@ const navItems = [
   { href: '/', text: 'Home' },
   { href: 'movies', text: 'Movies' },
 ];
-export const Header = () => {
+ const Header = () => {
   return (
     <HeaderList>
       {navItems.map(({ href, text }) => (
@@ -15,3 +15,4 @@ export const Header = () => {
     </HeaderList>
   );
 };
+export default Header;
