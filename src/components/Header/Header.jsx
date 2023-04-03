@@ -1,4 +1,5 @@
-const { HeaderList, HeaderLink, HeaderText } = require('./Header.styled');
+
+import { HeaderLink, HeaderList, HeaderText } from "./Header.styled";
 
 const navItems = [
   { href: '/', text: 'Home' },
